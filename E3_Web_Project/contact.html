@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--Jaydan Fleming-->
+		<meta charset="utf-8">
+		<title>Electronic Entertainment Expo</title>
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<meta name="description" content="Provide contact information for a chance to register to the next E3 event. Further qualifications for what media outlet you have will be discussed a week after providing contact info.">
+		<link rel="icon" href="Images/favicon.png" type="image/ico">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<header>
+				<a href="index.html"><img src="Images/logo.png" height="100" width="100" id="logo" alt="E3 logo"></a>
+				<h1>Electronic Entertainment Expo</h1>
+			</header>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a class="activepage" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<main>
+				<form method="post" action="http://www.randyconnolly.com/tests/process.php">
+				
+					<label for="myName">Name*</label>
+					<input type="text" name="myName" id="myName" required="required" placeholder="Enter first and last name">
+					
+					<label for="myAddress">Address</label>
+					<input type="text" name="myAddress" id="myAddress" placeholder="Street Address">
+					
+					<label for="myCity">City</label>
+					<input type="text" name="myCity" id="myCity" placeholder="City">
+					
+					<label for="myState">State</label>
+					<select size="1" name="myState" id="myState">
+						<option>Select State</option>
+						<option value="AL">AL</option>
+						<option value="AK">AK</option>
+						<option value="AZ">AZ</option>
+						<option value="AR">AR</option>
+						<option value="CA">CA</option>
+						<option value="CO">CO</option>
+						<option value="CT">CT</option>
+						<option value="DE">DE</option>
+						<option value="FL">FL</option>
+						<option value="GA">GA</option>
+						<option value="HI">HI</option>
+						<option value="ID">ID</option>
+						<option value="IL">IL</option>
+						<option value="IN">IN</option>
+						<option value="IA">IA</option>
+						<option value="KS">KS</option>
+						<option value="KY">KY</option>
+						<option value="LA">LA</option>
+						<option value="ME">ME</option>
+						<option value="MD">MD</option>
+						<option value="MA">MA</option>
+						<option value="MI">MI</option>
+						<option value="MN">MN</option>
+						<option value="MS">MS</option>
+						<option value="MO">MO</option>
+						<option value="MT">MT</option>
+						<option value="NE">NE</option>
+						<option value="NV">NV</option>
+						<option value="NH">NH</option>
+						<option value="NJ">NJ</option>
+						<option value="NM">NM</option>
+						<option value="NY">NY</option>
+						<option value="NC">NC</option>
+						<option value="ND">ND</option>
+						<option value="OH">OH</option>
+						<option value="OK">OK</option>
+						<option value="OR">OR</option>
+						<option value="PA">PA</option>
+						<option value="RI">RI</option>
+						<option value="SC">SC</option>
+						<option value="SD">SD</option>
+						<option value="TN">TN</option>
+						<option value="TX">TX</option>
+						<option value="UT">UT</option>
+						<option value="VT">VT</option>
+						<option value="VA">VA</option>
+						<option value="WA">WA</option>
+						<option value="WV">WV</option>
+						<option value="WI">WI</option>
+						<option value="WY">WY</option>
+					</select>
+					
+					<label for="myZip">Zip</label>
+					<input type="text" name="myZip" id="myZip" placeholder="Zip Code">
+					
+					<label for="myPhone">Phone*</label>
+					<input type="text" name="myPhone" id="myPhone" placeholder="Phone" required="required">
+					
+					<label for="myEmail">Email*</label>
+					<input type="text" name="myEmail" id="myEmail" placeholder="you@domain.com" required="required">
+					
+					<p>Preferred Method of Contact</p>
+					
+					<input type="radio" name="prefContact" id="prefEmail" value="Email">
+					<label for="prefEmail">Email</label>
+					
+					<input type="radio" name="prefContact" id="prefPhone" value="Phone">
+					<label for="prefPhone">Phone</label>
+					
+					<label for="myComments" id="labelComments">Comments</label>
+					<textarea name="myComments" id="myComments"></textarea>
+					
+					<div id="myButtons">
+						<input type="reset" id="myReset" value="Reset Me">
+						<input type="submit" id="mySubmit" value="Submit Me">
+					</div><!--closes myButtons-->
+				</form>
+			</main>
+			<footer>
+				<p>&copy;2019 This site is for educational purposes only. </p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,161 @@
+header, nav, main, address, footer {
+	display: block;
+}
+body {
+	background-color: #FFFF66;
+	color: #000000;
+	font-family: Times New Roman, Garamond, serif;
+}
+#wrapper {
+	background-color: #FDFDFD;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	background-color: #141A1A;
+	color: #FFFFFF;
+	height: 100px;
+	padding-top: 2em;
+	text-align: center;
+	padding-bottom: 1em;
+	padding-right: 1.5em;
+}
+nav {
+	font-weight: bold;
+}
+footer {
+	font-size: .8em;
+	font-style: italic;
+	text-align: center;
+	background-color: #FF9900;
+	color: #141A1A;
+	padding: .1em;
+}
+main {
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	display: block;
+}
+#logo {
+	float: left;
+	padding-left: 2em;
+}
+nav a {
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+	border: 1px ridge #000000;
+	padding: 0.7em;
+}
+nav li {
+	display: inline-block;
+	margin-top: 10px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	word-spacing: 2em;
+}
+nav a:link {
+	background-color: #CC99CC;
+}
+nav a:hover {
+	background-color: #FF3366;
+}
+h2 {
+	font-size: 35px;
+	font-family: Times New Roman, Garamond, serif;
+	color: #330033;
+}
+h3 {
+	font-size: 22px;
+	font-family: Times New Roman, Garamond, serif;
+	color: #330033;
+}
+p {
+	font-size: 16px;
+	font-family: Times New Roman, Garamond, serif;
+	color: #330033;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+footer p {
+	color: #000000;
+}
+#floatleft {
+	float: left;
+	width: 400px;
+	padding-bottom: 70px;
+
+}
+#floatright {
+	width: 400px;
+	float: right;
+	padding-bottom: 70px;
+}
+#clear {
+	clear: left;
+}
+form {
+	width: 350px;
+	background-color: #CC99CC;
+	margin: 0 auto;
+	border-radius: 16px;
+	padding: 10px;
+	color: #000000;
+}
+label {
+	font-size: 1em;
+}
+input {
+	display: block;
+	width: 300px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px inset gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+select {
+	display: block;
+	margin-bottom: 20px;
+	height: 20px;
+	margin-top: 10px;
+}
+#myZip {
+	width: 90px;
+}
+#prefPhone, #prefEmail {
+	display: inline;
+	width: 20px;
+	height: 20px;
+}
+#labelComments {
+	display: block;
+	margin-bottom: 10px;
+}
+textarea {
+	height: 60px;
+	width: 300px;
+	border-radius: 5px;
+	padding: 5px;
+}
+#myReset, #mySubmit {
+	width: 100px;
+	display: inline;
+}
+#myButtons {
+	width: 220px;
+	margin: 0 auto;
+}
+.activepage {
+	background-color: #FFFFCC
+}
